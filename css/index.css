@@ -1,0 +1,36 @@
+#head{
+	margin: 10px;
+	border: 1px solid black;
+}
+h1{
+	text-align: center;
+	background-color: gray;
+}
+body{
+	background-color: lightgray;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+table {
+	width: 100%;
+}
+
+.tabla tr:nth-child(even) { /*(even) or (2n 0)*/
+	background: #A4D1FF;
+}
+.tabla tr:nth-child(odd) { /*(even) or (2n 0)*/
+	background: white;
+}
+#encabezado{
+	background: black;
+	color: white;
+}
+
+#sel{
+	background-color: blue;
+	padding: 5px;
+	border: 1px solid black;
+}
